@@ -19,7 +19,7 @@ public class IdealWeight {
         }else{
             System.out.println("Terlalu gemuk");
         }
-        
+
     }
     }
 }

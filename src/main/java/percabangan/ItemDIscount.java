@@ -20,7 +20,7 @@ class Product {
         this.price = price;
         this.stock = stock;
     }
-    
+
     void display() {
         System.out.printf("id: %d \n name: %s \n description: %s \n price: %s, stock: %s \n",id,name,description,usFormatter.format(price),stock);
     }
@@ -67,7 +67,7 @@ public class ItemDIscount {
                 "Buku tulis binder",
                 60000,
                 5
-            )    
+            )
         };
       return products;
     }
@@ -87,4 +87,3 @@ public class ItemDIscount {
         }
     }
 }
-

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GanjilGenapChecker {
     public static void main(String[] args){
-       
+
         try (Scanner userInput = new Scanner(System.in)) {
             System.out.println("Masukkan angka: ");
             double angka = userInput.nextDouble();
@@ -15,7 +15,7 @@ public class GanjilGenapChecker {
             }
         }
 
-    }    
+    }
 
 }
 

@@ -3,7 +3,7 @@ public class percabangan {
     public static void main(String[] args) {
 
         int x = 3,y = 5,z = 2,u = 3;
-        
+
         System.out.println("x == u: " + (x == u));
         System.out.println("x != u: " + (x != u));
         System.out.println("!(x >= u) && (y != z): " + (!(x >= u) && (y != z)));
